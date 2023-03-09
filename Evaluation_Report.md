@@ -12,20 +12,20 @@ The trading algorithm was tested using different parameter settings, including t
 
 ## Tune the Baseline Trading Algorithm
 
-![Alt text]("actual_vs_strategy_returns_base.png")
+![Alt text](actual_vs_strategy_returns_base.png)
 
 
 ## Changing the training window size:
 The impact of increasing the training window size from 3 months to 6 months was evaluated. The results showed that the trading algorithm outperformed the actual returns with 1.8x compared to 1.6x. Therefore, increasing the training window size improved the performance of the trading algorithm.
 
-![Alt text]("actual_vs_strategy_returns_Tune.png")
+![Alt text](actual_vs_strategy_returns_Tune.png)
 
 The size of the training dataset is a critical factor in machine learning model performance. Increasing the training dataset size can provide more historical data for the model to learn from but may result in overfitting. Conversely, decreasing the training dataset size may prevent overfitting but can result in the model not learning enough. The impact of changing the training window depends on the dataset and model. Finding the optimal training dataset size requires a balanced approach.
 
 ## Changing the SMA input features:
 The SMA short window was increased from 4 to 6, and the SMA long window was increased from 100 to 120, keeping the 3-month time frame the same. The results showed that the actual returns performed better than the trading algorithm returns with 1.6x compared to 1.5x. Therefore, changing the SMA input features did not improve the performance of the trading algorithm.
 
-![Alt text]("actual_vs_strategy_returns_SMAinputfeatures.png")
+![Alt text](actual_vs_strategy_returns_SMAinputfeatures.png)
 
 Adjusting the SMA input features can impact the model's signal reliability and quantity. Increasing SMA windows generates fewer, but more reliable signals, while decreasing SMA windows generates more signals but less reliably. The impact depends on the dataset and model. Optimal SMA window sizes should balance signal reliability and quantity. Decisions should align with model goals and dataset characteristics for enhanced performance and profitability.
 
@@ -39,14 +39,15 @@ My experimentation revealed that 12 months was not a good choice for the time fr
 
 In conclusion, my comprehensive testing and analysis highlight the importance of systematic parameter tuning to identify the optimal set of parameters for the specific dataset and model being used. My findings also demonstrate that the original parameters can provide the best results for this particular trading algorithm.
 
-![Alt text]("actual_vs_strategy_returns_base.png")
+![Alt text](actual_vs_strategy_returns_base.png)
 
 
 ## LogisticRegression model:
 
 The LogisticRegression model was used to improve the performance of the trading algorithm. The results showed that the LogisticRegression model outperformed the other models tested. However, the original trading algorithm with the best set of parameters provided the highest returns.
 
-![Alt text]("actual_vs_strategy_returns 4.png")
+![Alt text](actual_vs_strategy_returns 4.png)
+
 
 ## Conclusion 
 
