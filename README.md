@@ -33,5 +33,12 @@ In this project, I use historical stock data to train a machine learning classif
 In conclusion, the GitHub repository presents a comprehensive evaluation of a trading algorithm's performance over six years, considering different parameters such as the training dataset size, SMA input features, and time frame. Through a series of tests and experiments, the best-performing set of parameters was identified, highlighting the critical role of systematic parameter tuning in developing an effective trading algorithm. 
 The findings suggest that increasing the training window size enhances the algorithm's performance, whereas changing the SMA input features does not yield any significant improvement. Additionally, the report evaluates the effectiveness of using a LogisticRegression model in enhancing the algorithm's performance, with the original algorithm's best-performing set of parameters providing the highest returns. The report's insights emphasize the importance of achieving a balance between the parameters to optimize the algorithm's performance and can guide future research and development of trading algorithms, ultimately resulting in improved performance and profitability.
 
+## Enclosed 
+
+- Machine_learning_trading_bot.ipynb
+- Evaluation_Report.md
+- Relevant images
+- Emerging_markets_ohlcv.csv
+
 ## License
 The code in this project is licensed under the MIT License.
