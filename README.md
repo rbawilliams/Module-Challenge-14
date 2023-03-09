@@ -1,5 +1,7 @@
 # Module-Challenge-14
 
+![Alt text]("14-challenge-image.png")
+
 ## Answers 
 
 Step 1: When increasing the size of the training dataset, the model has more historical data to learn from and may be able to better capture patterns and trends. However, a larger training dataset can also result in overfitting, where the model becomes too tailored to the specific training data and does not generalize well to new data. Conversely, decreasing the size of the training dataset may help prevent overfitting, but may result in the model not learning enough patterns and trends from the historical data. The impact of increasing or decreasing the training window will depend on the specific dataset and model being used.
