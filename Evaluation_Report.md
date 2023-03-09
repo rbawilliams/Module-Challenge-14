@@ -12,6 +12,8 @@ The trading algorithm was tested using different parameter settings, including t
 
 ## Tune the Baseline Trading Algorithm
 
+For the baseline trading algorithm, the Simple Moving Average (SMA) short window had a length of 4, and the SMA long window had a length of 100, within a 3-month period. Over a period of 6 years, it is evident that the base model outperformed the actual market return, yielding a return of 1.5 times compared to the market's 1.4 times return.
+
 ![Alt text](actual_vs_strategy_returns_base.png)
 
 
@@ -46,7 +48,7 @@ In conclusion, my comprehensive testing and analysis highlight the importance of
 
 The LogisticRegression model was used to improve the performance of the trading algorithm. The results showed that the LogisticRegression model outperformed the other models tested. However, the original trading algorithm with the best set of parameters provided the highest returns.
 
-![Alt text](actual_vs_strategy_returns 4.png)
+![Alt text](actual_vs_strategy_returns_4.png)
 
 
 ## Conclusion 
