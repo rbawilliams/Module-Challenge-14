@@ -48,7 +48,15 @@ The LogisticRegression model was used to improve the performance of the trading 
 
 ![Alt text]("actual_vs_strategy_returns 4.png")
 
+## Conclusion 
 
+In conclusion, the evaluation report clearly demonstrates the critical role of parameter tuning in developing an effective trading algorithm. The study highlights the significance of achieving a balance between the training dataset size, the SMA input features, and the time frame to optimize the algorithm's performance.
+
+The testing results reveal that increasing the training window size from 3 months to 6 months enhances the algorithm's performance, whereas changing the SMA input features did not yield any significant improvement. The best-performing set of parameters for the algorithm included a SMA fast of 4, SMA slow of 100, and a 3-month time period.
+
+Additionally, the report evaluates the effectiveness of using a LogisticRegression model in enhancing the performance of the trading algorithm. The findings suggest that the LogisticRegression model outperformed other models but did not provide higher returns than the original algorithm.
+
+Overall, the report's insights emphasize the importance of a systematic approach to parameter tuning and highlight the specific parameters to consider for optimal trading algorithm performance. The recommendations provided can guide future research and development of trading algorithms, ultimately resulting in improved performance and profitability.
 
 
 
